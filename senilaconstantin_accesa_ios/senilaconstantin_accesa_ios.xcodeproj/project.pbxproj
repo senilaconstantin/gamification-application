@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F58A3DE129E400D6005AB71D /* CustomCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58A3DE029E400D6005AB71D /* CustomCornerRadius.swift */; };
+		F5FD50F229E18E0F0000B97A /* senilaconstantin_accesa_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD50F129E18E0F0000B97A /* senilaconstantin_accesa_iosApp.swift */; };
+		F5FD50F429E18E0F0000B97A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD50F329E18E0F0000B97A /* LoginView.swift */; };
+		F5FD50F629E18E110000B97A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FD50F529E18E110000B97A /* Assets.xcassets */; };
+		F5FD50F929E18E110000B97A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FD50F829E18E110000B97A /* Preview Assets.xcassets */; };
+		F5FD510429E193060000B97A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD510329E193060000B97A /* LoginViewModel.swift */; };
+		F5FD510729E193590000B97A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD510629E193590000B97A /* APIClient.swift */; };
+		F5FD510929E194240000B97A /* LogInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD510829E194240000B97A /* LogInModel.swift */; };
+		F5FD510C29E1959E0000B97A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F5FD510B29E1959E0000B97A /* Alamofire */; };
+		F5FD510E29E196090000B97A /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD510D29E196090000B97A /* TokenModel.swift */; };
+		F5FD511129E197340000B97A /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD511029E197340000B97A /* CurrentUser.swift */; };
+		F5FD511829E19B310000B97A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD511729E19B310000B97A /* DashboardView.swift */; };
+		F5FD511A29E19B560000B97A /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD511929E19B560000B97A /* UserDetails.swift */; };
+		F5FD511C29E19E7F0000B97A /* VerificationV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD511B29E19E7F0000B97A /* VerificationV.swift */; };
+		F5FD511E29E1A4280000B97A /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD511D29E1A4280000B97A /* VerificationViewModel.swift */; };
+		F5FD512029E1C1390000B97A /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD511F29E1C1390000B97A /* DashboardViewModel.swift */; };
+		F5FD512229E1F0FB0000B97A /* AddQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD512129E1F0FB0000B97A /* AddQuestView.swift */; };
+		F5FD512429E21F010000B97A /* QuestModelPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD512329E21F010000B97A /* QuestModelPost.swift */; };
+		F5FD512629E21FCB0000B97A /* QuestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD512529E21FCB0000B97A /* QuestModel.swift */; };
+		F5FD512829E22A7E0000B97A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD512729E22A7E0000B97A /* CardView.swift */; };
+		F5FD512A29E2B8F30000B97A /* SolveCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD512929E2B8F30000B97A /* SolveCardView.swift */; };
+		F5FD512C29E2BA160000B97A /* BackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD512B29E2BA160000B97A /* BackdropView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F58A3DE029E400D6005AB71D /* CustomCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerRadius.swift; sourceTree = "<group>"; };
+		F5FD50EE29E18E0F0000B97A /* senilaconstantin_accesa_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = senilaconstantin_accesa_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FD50F129E18E0F0000B97A /* senilaconstantin_accesa_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = senilaconstantin_accesa_iosApp.swift; sourceTree = "<group>"; };
+		F5FD50F329E18E0F0000B97A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F5FD50F529E18E110000B97A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5FD50F829E18E110000B97A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5FD510329E193060000B97A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F5FD510629E193590000B97A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F5FD510829E194240000B97A /* LogInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInModel.swift; sourceTree = "<group>"; };
+		F5FD510D29E196090000B97A /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		F5FD511029E197340000B97A /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		F5FD511729E19B310000B97A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F5FD511929E19B560000B97A /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		F5FD511B29E19E7F0000B97A /* VerificationV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationV.swift; sourceTree = "<group>"; };
+		F5FD511D29E1A4280000B97A /* VerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewModel.swift; sourceTree = "<group>"; };
+		F5FD511F29E1C1390000B97A /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		F5FD512129E1F0FB0000B97A /* AddQuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestView.swift; sourceTree = "<group>"; };
+		F5FD512329E21F010000B97A /* QuestModelPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestModelPost.swift; sourceTree = "<group>"; };
+		F5FD512529E21FCB0000B97A /* QuestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestModel.swift; sourceTree = "<group>"; };
+		F5FD512729E22A7E0000B97A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F5FD512929E2B8F30000B97A /* SolveCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveCardView.swift; sourceTree = "<group>"; };
+		F5FD512B29E2BA160000B97A /* BackdropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5FD50EB29E18E0F0000B97A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FD510C29E1959E0000B97A /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5FD50E529E18E0E0000B97A = {
+			isa = PBXGroup;
+			children = (
+				F5FD50F029E18E0F0000B97A /* senilaconstantin_accesa_ios */,
+				F5FD50EF29E18E0F0000B97A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5FD50EF29E18E0F0000B97A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD50EE29E18E0F0000B97A /* senilaconstantin_accesa_ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5FD50F029E18E0F0000B97A /* senilaconstantin_accesa_ios */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD511229E19AEE0000B97A /* Dashboard */,
+				F5FD510F29E197050000B97A /* CurrentU */,
+				F5FD510529E1933C0000B97A /* API */,
+				F5FD50FF29E192440000B97A /* Login */,
+				F5FD50F129E18E0F0000B97A /* senilaconstantin_accesa_iosApp.swift */,
+				F5FD511B29E19E7F0000B97A /* VerificationV.swift */,
+				F5FD50F529E18E110000B97A /* Assets.xcassets */,
+				F5FD50F729E18E110000B97A /* Preview Content */,
+				F5FD511D29E1A4280000B97A /* VerificationViewModel.swift */,
+			);
+			path = senilaconstantin_accesa_ios;
+			sourceTree = "<group>";
+		};
+		F5FD50F729E18E110000B97A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD50F829E18E110000B97A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5FD50FF29E192440000B97A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD510229E1926B0000B97A /* Model */,
+				F5FD510129E192630000B97A /* ViewModel */,
+				F5FD510029E192500000B97A /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F5FD510029E192500000B97A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD50F329E18E0F0000B97A /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5FD510129E192630000B97A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD510329E193060000B97A /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F5FD510229E1926B0000B97A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD510829E194240000B97A /* LogInModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5FD510529E1933C0000B97A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD510629E193590000B97A /* APIClient.swift */,
+				F5FD510D29E196090000B97A /* TokenModel.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F5FD510F29E197050000B97A /* CurrentU */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD511029E197340000B97A /* CurrentUser.swift */,
+			);
+			path = CurrentU;
+			sourceTree = "<group>";
+		};
+		F5FD511229E19AEE0000B97A /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD511529E19B0E0000B97A /* View */,
+				F5FD511429E19B070000B97A /* Model */,
+				F5FD511329E19AFD0000B97A /* ViewModel */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F5FD511329E19AFD0000B97A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD511F29E1C1390000B97A /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F5FD511429E19B070000B97A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD511929E19B560000B97A /* UserDetails.swift */,
+				F5FD512329E21F010000B97A /* QuestModelPost.swift */,
+				F5FD512529E21FCB0000B97A /* QuestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5FD511529E19B0E0000B97A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5FD511729E19B310000B97A /* DashboardView.swift */,
+				F5FD512129E1F0FB0000B97A /* AddQuestView.swift */,
+				F5FD512729E22A7E0000B97A /* CardView.swift */,
+				F5FD512929E2B8F30000B97A /* SolveCardView.swift */,
+				F5FD512B29E2BA160000B97A /* BackdropView.swift */,
+				F58A3DE029E400D6005AB71D /* CustomCornerRadius.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5FD50ED29E18E0F0000B97A /* senilaconstantin_accesa_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5FD50FC29E18E110000B97A /* Build configuration list for PBXNativeTarget "senilaconstantin_accesa_ios" */;
+			buildPhases = (
+				F5FD50EA29E18E0F0000B97A /* Sources */,
+				F5FD50EB29E18E0F0000B97A /* Frameworks */,
+				F5FD50EC29E18E0F0000B97A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = senilaconstantin_accesa_ios;
+			packageProductDependencies = (
+				F5FD510B29E1959E0000B97A /* Alamofire */,
+			);
+			productName = senilaconstantin_accesa_ios;
+			productReference = F5FD50EE29E18E0F0000B97A /* senilaconstantin_accesa_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5FD50E629E18E0E0000B97A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F5FD50ED29E18E0F0000B97A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F5FD50E929E18E0E0000B97A /* Build configuration list for PBXProject "senilaconstantin_accesa_ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5FD50E529E18E0E0000B97A;
+			packageReferences = (
+				F5FD510A29E1959E0000B97A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = F5FD50EF29E18E0F0000B97A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5FD50ED29E18E0F0000B97A /* senilaconstantin_accesa_ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5FD50EC29E18E0F0000B97A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FD50F929E18E110000B97A /* Preview Assets.xcassets in Resources */,
+				F5FD50F629E18E110000B97A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5FD50EA29E18E0F0000B97A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FD50F429E18E0F0000B97A /* LoginView.swift in Sources */,
+				F5FD512229E1F0FB0000B97A /* AddQuestView.swift in Sources */,
+				F5FD512429E21F010000B97A /* QuestModelPost.swift in Sources */,
+				F5FD511829E19B310000B97A /* DashboardView.swift in Sources */,
+				F5FD511A29E19B560000B97A /* UserDetails.swift in Sources */,
+				F5FD512029E1C1390000B97A /* DashboardViewModel.swift in Sources */,
+				F5FD510E29E196090000B97A /* TokenModel.swift in Sources */,
+				F5FD512A29E2B8F30000B97A /* SolveCardView.swift in Sources */,
+				F5FD510929E194240000B97A /* LogInModel.swift in Sources */,
+				F5FD50F229E18E0F0000B97A /* senilaconstantin_accesa_iosApp.swift in Sources */,
+				F5FD512C29E2BA160000B97A /* BackdropView.swift in Sources */,
+				F5FD511E29E1A4280000B97A /* VerificationViewModel.swift in Sources */,
+				F58A3DE129E400D6005AB71D /* CustomCornerRadius.swift in Sources */,
+				F5FD510429E193060000B97A /* LoginViewModel.swift in Sources */,
+				F5FD511C29E19E7F0000B97A /* VerificationV.swift in Sources */,
+				F5FD511129E197340000B97A /* CurrentUser.swift in Sources */,
+				F5FD510729E193590000B97A /* APIClient.swift in Sources */,
+				F5FD512829E22A7E0000B97A /* CardView.swift in Sources */,
+				F5FD512629E21FCB0000B97A /* QuestModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5FD50FA29E18E110000B97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5FD50FB29E18E110000B97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5FD50FD29E18E110000B97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"senilaconstantin_accesa_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 69529J6YS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Accesa_Internship;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "senilaconstantin.senilaconstantin-accesa-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5FD50FE29E18E110000B97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"senilaconstantin_accesa_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 69529J6YS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Accesa_Internship;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "senilaconstantin.senilaconstantin-accesa-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5FD50E929E18E0E0000B97A /* Build configuration list for PBXProject "senilaconstantin_accesa_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FD50FA29E18E110000B97A /* Debug */,
+				F5FD50FB29E18E110000B97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FD50FC29E18E110000B97A /* Build configuration list for PBXNativeTarget "senilaconstantin_accesa_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FD50FD29E18E110000B97A /* Debug */,
+				F5FD50FE29E18E110000B97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5FD510A29E1959E0000B97A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5FD510B29E1959E0000B97A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5FD510A29E1959E0000B97A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5FD50E629E18E0E0000B97A /* Project object */;
+}

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0E2A98EC-60D6-4B69-ADDA-FF1C6171504C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45B2731E-160F-431C-9468-0B0598A11B53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "senilaconstantin_accesa_ios/Dashboard/ViewModel/DashboardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "45B2731E-160F-431C-9468-0B0598A11B53 - f95ca7a09797bcef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "senilaconstantin_accesa_ios.DashboardViewModel.init() -&gt; senilaconstantin_accesa_ios.DashboardViewModel"
+                  moduleName = "senilaconstantin_accesa_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/constantinsenila/Documents/ApplicationJobs/applicattionToken/senilaconstantin_accesa_ios/senilaconstantin_accesa_ios/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "45B2731E-160F-431C-9468-0B0598A11B53 - f93471af2f661bd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;senilaconstantin_accesa_ios.UserDetails&gt;) -&gt; () in senilaconstantin_accesa_ios.DashboardViewModel.init() -&gt; senilaconstantin_accesa_ios.DashboardViewModel"
+                  moduleName = "senilaconstantin_accesa_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/constantinsenila/Documents/ApplicationJobs/applicattionToken/senilaconstantin_accesa_ios/senilaconstantin_accesa_ios/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1928AC14-3E43-4701-8731-66E2D0078203"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "senilaconstantin_accesa_ios/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "getUserDetailsDat(token:userResponse:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1928AC14-3E43-4701-8731-66E2D0078203 - 28f92d65b288a3a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "senilaconstantin_accesa_ios.APIClient.getUserDetailsDat(token: senilaconstantin_accesa_ios.TokenModel, userResponse: (Swift.Optional&lt;senilaconstantin_accesa_ios.UserDetails&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "senilaconstantin_accesa_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/constantinsenila/Documents/ApplicationJobs/applicattionToken/senilaconstantin_accesa_ios/senilaconstantin_accesa_ios/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "1928AC14-3E43-4701-8731-66E2D0078203 - 6f961e1a1e3725f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;) -&gt; () in senilaconstantin_accesa_ios.APIClient.getUserDetailsDat(token: senilaconstantin_accesa_ios.TokenModel, userResponse: (Swift.Optional&lt;senilaconstantin_accesa_ios.UserDetails&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "senilaconstantin_accesa_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/constantinsenila/Documents/ApplicationJobs/applicattionToken/senilaconstantin_accesa_ios/senilaconstantin_accesa_ios/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB436771-6724-468D-A10C-50137724BF24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "senilaconstantin_accesa_ios/Dashboard/View/DashboardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC0B2E8D-0477-48CD-A455-F01D977994C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "senilaconstantin_accesa_ios/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "getQuestsData(token:userResponse:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC0B2E8D-0477-48CD-A455-F01D977994C2 - 34e8ade950fe3795"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;) -&gt; () in senilaconstantin_accesa_ios.APIClient.getQuestsData(token: senilaconstantin_accesa_ios.TokenModel, userResponse: (Swift.Optional&lt;Swift.Array&lt;senilaconstantin_accesa_ios.QuestModel&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "senilaconstantin_accesa_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/constantinsenila/Documents/ApplicationJobs/applicattionToken/senilaconstantin_accesa_ios/senilaconstantin_accesa_ios/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "BC0B2E8D-0477-48CD-A455-F01D977994C2 - 34e8ade950fe3795"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;) -&gt; () in senilaconstantin_accesa_ios.APIClient.getQuestsData(token: senilaconstantin_accesa_ios.TokenModel, userResponse: (Swift.Optional&lt;Swift.Array&lt;senilaconstantin_accesa_ios.QuestModel&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "senilaconstantin_accesa_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/constantinsenila/Documents/ApplicationJobs/applicattionToken/senilaconstantin_accesa_ios/senilaconstantin_accesa_ios/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1FFB6BC-491B-4270-9445-747F74FA50E6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "senilaconstantin_accesa_ios/Dashboard/ViewModel/DashboardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "reloadDetails()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F1FFB6BC-491B-4270-9445-747F74FA50E6 - 1d94f3b86ec4b9c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;senilaconstantin_accesa_ios.QuestModel&gt;&gt;) -&gt; () in senilaconstantin_accesa_ios.DashboardViewModel.reloadDetails() -&gt; ()"
+                  moduleName = "senilaconstantin_accesa_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/constantinsenila/Documents/ApplicationJobs/applicattionToken/senilaconstantin_accesa_ios/senilaconstantin_accesa_ios/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "F1FFB6BC-491B-4270-9445-747F74FA50E6 - e6ceaea4f0e5cd37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #2 (Swift.Optional&lt;Swift.Array&lt;senilaconstantin_accesa_ios.QuestModel&gt;&gt;) -&gt; () in senilaconstantin_accesa_ios.DashboardViewModel.reloadDetails() -&gt; ()"
+                  moduleName = "senilaconstantin_accesa_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/constantinsenila/Documents/ApplicationJobs/applicattionToken/senilaconstantin_accesa_ios/senilaconstantin_accesa_ios/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "829621CD-98F4-49CA-AB7F-3CE220BEF877"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "senilaconstantin_accesa_ios/Dashboard/ViewModel/DashboardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "reloadDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B49991D3-1C7B-484E-85E1-2F622AD197BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "senilaconstantin_accesa_ios/Dashboard/View/AddQuestView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "mainView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
